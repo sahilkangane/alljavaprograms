@@ -1,0 +1,14 @@
+ Scanner sc=new Scanner(System.in);
+ //       float fm=sc.nextFloat();
+        System.out.println("enter the marks of maths");
+        int maths = sc.nextInt();
+        System.out.println("enter the marks of science");
+        int science = sc.nextInt();
+        System.out.println("enter the marks of hindi");
+        int hindi = sc.nextInt();
+        System.out.println("enter the marks of marathi");
+        int marathi = sc.nextInt();
+        System.out.println("enter the marks of english");
+        int english = sc.nextInt();
+        float per = ((maths+science+hindi+english+marathi)/ 500.0f)*100;
+        System.out.println(per+"%");
