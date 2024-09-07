@@ -1,0 +1,6 @@
+System.out.println("Enter the KM : ");
+        Scanner sc=new Scanner(System.in);
+        byte a = 127;
+        float km = sc.nextFloat();
+        float miles =km * 0.621371f;
+        System.out.println(miles);
