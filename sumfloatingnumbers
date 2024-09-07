@@ -1,0 +1,5 @@
+float a = 20.6f;
+float b = 61.56f;
+float k = 105.25f;
+float sum = a+b+k;
+System.out.println(sum);
